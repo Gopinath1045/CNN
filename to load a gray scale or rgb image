@@ -1,0 +1,10 @@
+tf.keras.utils.load_img(
+    "F:/gopimg/gopiimg.jpg",
+    grayscale=True,
+    color_mode="rgb"
+    target_size=None,
+    interpolation="nearest",
+    keep_aspect_ratio=False,
+)
+
+#if gray scale True  and color mode false we get black and wight pic, and viceversa
